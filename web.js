@@ -13,7 +13,7 @@ fs.readFile('index.html', 'utf8', function (err,data) {
 });
 
 app.get('/', function(request, response) {
-  response.send('Hello World 2!');
+  //response.send('Hello World 2!');
   response.send(data);
 });
 
